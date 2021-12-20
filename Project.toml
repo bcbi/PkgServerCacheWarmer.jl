@@ -1,0 +1,13 @@
+name = "PkgServerCacheWarmer"
+uuid = "07511c57-dfe3-4ee3-bfd6-d5d097298c94"
+authors = ["Dilum Aluthge", "Brown Center for Biomedical Informatics", "contributors"]
+version = "1.0.0-DEV"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+julia = "1.6"
+
+[targets]
+test = ["Test"]
