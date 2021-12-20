@@ -2,5 +2,5 @@ using PkgServerCacheWarmer
 using Test
 
 @testset "PkgServerCacheWarmer.jl" begin
-    # Write your tests here.
+    @test PkgServerCacheWarmer._hello_world() == "hello world"
 end

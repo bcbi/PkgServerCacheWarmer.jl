@@ -5,7 +5,7 @@ DocMeta.setdocmeta!(PkgServerCacheWarmer, :DocTestSetup, :(using PkgServerCacheW
 
 makedocs(;
     modules=[PkgServerCacheWarmer],
-    authors="Dilum Aluthge, Brown Center for Biomedical Informatics, contributors",
+    authors="Dilum Aluthge, Brown Center for Biomedical Informatics, and contributors",
     repo="https://github.com/bcbi/PkgServerCacheWarmer.jl/blob/{commit}{path}#{line}",
     sitename="PkgServerCacheWarmer.jl",
     format=Documenter.HTML(;
