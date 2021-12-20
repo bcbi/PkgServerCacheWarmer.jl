@@ -1,11 +1,11 @@
 module PkgServerCacheWarmer
 
-import TOML
-
+include("defaults.jl")
 include("types.jl")
 
-include("file.jl")
+include("commands.jl")
 include("public.jl")
-include("utils.jl")
+include("temporary_environment.jl")
+include("warmup_cache.jl")
 
 end # module
